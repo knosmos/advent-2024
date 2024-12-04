@@ -12,7 +12,7 @@ def main(s):
             en = False
         if s[i:i+3] == "mul":
             try:
-                a,b = s[i+4:i+3+s[i+3:].index(")")].split(",")
+                a, b = s[i+4:i+3+s[i+3:].index(")")].split(",")
                 if a.isnumeric() and b.isnumeric():
                     if en: r += int(a)*int(b)
             except:pass
