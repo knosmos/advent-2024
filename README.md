@@ -13,5 +13,8 @@ Yet another Advent of Code 2024 repository
 1. I use a cursed checking function to look for the multiplication commands
 2. Add in an enable flag to turn on and off multiplications
 ### Day 4
-1. DFS solution to find lines in different directions - this is actually a pretty bad approach, but it's what I thought of first
+1. Search for `XMAS` in all 8 directions
 2. Look for all the `A`s and match `M` and `S` across them diagonally
+### Day 5
+1. Brute force rule checking (index both numbers and check if the rule holds)
+2. Construct an adjacency list from the conditions and build a topological sorting
