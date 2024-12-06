@@ -1,6 +1,5 @@
 from aocd import data, submit
 from collections import defaultdict
-from itertools import permutations
 import sys
 
 def main1(s):

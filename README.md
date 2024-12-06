@@ -18,3 +18,6 @@ Yet another Advent of Code 2024 repository
 ### Day 5
 1. Brute force rule checking (index both numbers and check if the rule holds)
 2. Construct an adjacency list from the conditions and build a topological sorting
+### Day 6
+1. Use a set to store previously visited positions, and simulate until we run out of bounds
+2. For every position, check for infinite loops (if we ever end up in the same position and direction). This code could definitely be optimized, but hey it runs :D
