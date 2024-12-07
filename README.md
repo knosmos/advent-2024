@@ -20,4 +20,7 @@ Yet another Advent of Code 2024 repository
 2. Construct an adjacency list from the conditions and build a topological sorting
 ### Day 6
 1. Use a set to store previously visited positions, and simulate until we run out of bounds
-2. For every position, check for infinite loops (if we ever end up in the same position and direction). This code could definitely be optimized, but hey it runs :D
+2. For every position, check for infinite loops (if we ever end up in the same position and direction). This code could probably be optimized, but hey it runs :D
+### Day 7
+1. Recursively brute force all possible combinations of operations.
+2. Also recursively brute force all possible combinations of operations (but add the third operation).
