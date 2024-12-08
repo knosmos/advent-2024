@@ -24,3 +24,6 @@ Yet another Advent of Code 2024 repository
 ### Day 7
 1. Recursively brute force all possible combinations of operations.
 2. Also recursively brute force all possible combinations of operations (but add the third operation).
+### Day 8
+1. For each pair with the same frequency, we can calculate the two antinodes by considering the two cases (whether the slope formed by the two antennas is positive or negative) and finding the appropriate distances from there. Mild black magic geometry used. A set stores positions to account for overlapping.
+2. We iterate through all multiples of the previously calculated distances
