@@ -30,3 +30,6 @@ Yet another Advent of Code 2024 repository
 ### Day 9
 1. Generate the expanded disk layout while storing the location of each empty space, then iterate backwards from the end to fill in the empty spaces until there is no benefit to doing so.
 2. Similar approach, but with storing empty blocks (whose size shrinks as they're filled up) instead.
+### Day 10
+1. Run a BFS from each 0 node, using a set to keep track of visited nodes
+2. The input is small enough that we can simply disable the visited node check
