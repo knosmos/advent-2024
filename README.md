@@ -33,3 +33,6 @@ Yet another Advent of Code 2024 repository
 ### Day 10
 1. Run a BFS from each 0 node, using a set to keep track of visited nodes
 2. The input is small enough that we can simply disable the visited node check
+### Day 11
+1. Simulation, repeatedly regenerating the stones according to the rules. We use a dictionary (storing the quantity of each stone number) to prevent repeated computation.
+2. Because of the efficiency from the dictionary, we simply increase the iteration count.
