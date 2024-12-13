@@ -36,3 +36,9 @@ Yet another Advent of Code 2024 repository
 ### Day 11
 1. Simulation, repeatedly regenerating the stones according to the rules. We use a dictionary (storing the quantity of each stone number) to prevent repeated computation.
 2. Because of the efficiency from the dictionary, we simply increase the iteration count.
+### Day 12
+1. Floodfill to get the cells in each region. Then, count the perimeter by subtracting edges that are between two cells.
+2. The number of sides is equal to the number of corners. I bash the number of corners that each cell has by checking all locations of corners (both outside/convex and inside/concave corners).
+### Day 13
+1. After regex parsing, bash the number of button presses. The solution seems to be unique.
+2. Solve the system of linear equations with numpy. Due to numerical imprecision, I had to round numpy's outputs.
