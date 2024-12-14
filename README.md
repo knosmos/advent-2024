@@ -42,3 +42,6 @@ Yet another Advent of Code 2024 repository
 ### Day 13
 1. After regex parsing, bash the number of button presses. The solution seems to be unique.
 2. Solve the system of linear equations with numpy. Due to numerical imprecision, I had to round numpy's outputs.
+### Day 14
+1. Implementation (slight speedup by directly calculating end positions with modulo instead of simulation)
+2. Floodfill each frame. If the frame contains a Christmas tree, it should contain a large contiguous region.
