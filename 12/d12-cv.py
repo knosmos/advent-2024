@@ -33,6 +33,7 @@ def main(s):
         img = np.zeros((len(s),len(s[0])), np.uint8)
         for p in r:
             img[p[0],p[1]] = 255
+        cv2.sobel(img, cv2.CV_64F, 1, 0, ksize=5)
         cv2.imshow('image', img)
         cv2.waitKey(0)
 
